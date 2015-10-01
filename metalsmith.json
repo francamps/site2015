@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Franc.ly",
+    "description": "Franc Camps-Febrer Portfolio site"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
+  }
+}

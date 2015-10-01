@@ -1,0 +1,16 @@
+<header class="nav-wrap animated fadeInUp">
+    <div class="nav-top">
+      <div class="nav-logo" onClick="location.href='/index.html'"></div>
+    </div>
+    <div class="nav-tagline">
+      <h4>Franc.ly</h4>
+      <span class="tagline">Codeeeer and storyteller</span>
+      </div>
+        <nav>
+          <ul>
+            <li class="nav-left"><a id="about" href="/bio.html">Who</a></li>
+            <li class="nav-left"><a id="work" href="/work.html">What</a></li>
+            <li class="nav-left"><a id="writing" href="/writing.html">Writing</a></li>
+          </ul>
+        </nav>
+</header>

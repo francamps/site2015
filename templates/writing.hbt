@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+{{> _head }}
+<body>
+
+  <body class="article-detail">
+    <div id="wrapper">
+    	{{> _headerArticle }}
+      	<div class="content-wrap">
+        	<section class="archive">
+        		<ul>
+    			{{#each posts}}
+    				<li><span style="line-height:35.2em" class="year-label">{{ dateStr }}</span>
+            				<li><a href="/writing/{{ url }}.html">{{ title }} </a></li>
+            	{{/each}}
+            	</ul>
+            </section>
+        </div>
+    </body>
+</html> 

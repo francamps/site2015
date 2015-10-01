@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+{{> _head }}
+  
+  <body class="article-detail">
+    <div id="wrapper" class="content-detail">
+      {{> _headerArticle }}
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content">
+            {{{ contents }}}
+          </section>
+        </article>
+      </div>
+  </div>
+  {{> _socialFooter }}
+  </body>
+</html>

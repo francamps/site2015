@@ -1,0 +1,328 @@
+/* MY PERSONAL SITE STUFF */
+
+#wrapper {
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  margin-left:auto;
+  margin-right:auto;  
+  overflow: auto;
+  padding-top: 7.2em;
+}
+
+
+/* ------------ GENERAL WINTERSMITH -------------- */
+
+h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
+  margin: 0; padding: 0; border: 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+.content-wrap {
+  margin: 0 auto;
+}
+
+body {
+  color: #232323;
+}
+ 
+a {
+  color: #9C8A6A;
+  text-decoration: none;
+}
+
+a:hover {
+  /*color: #FFC862;*/
+  color: #232323;
+  text-decoration: underline;
+}
+
+section > p {
+  line-height: 1.8em;    
+}
+
+
+p {  
+  margin-bottom: 1.52em;
+}
+
+pre {
+  font-size: 0.9em;
+  overflow: auto;
+  background: #fff;
+  border: 1px dashed #d2d2d2;
+  border-radius: 0.25em;
+  margin-bottom: 1.8em;
+  padding: 1em;
+}
+
+h1 {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 2em;
+  margin-bottom: .1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.43;
+  margin-bottom: 1.35em;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+}
+
+ol, ul {
+  margin: 0 1.4em 1.4em 4em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+li p {
+  margin-bottom: 0.5em; 
+}
+
+li ul {
+  margin-bottom: 0.5em;
+}
+
+.content > ul > li {
+  margin-bottom: 1.4em;
+  line-height: 1.8em;
+}
+
+blockquote {
+  margin: 1.2em 3em;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed #d2d2d2;
+  height: 0;
+  margin: 1.6em 0;
+}
+
+select {
+   background: transparent;
+   font-family: 'Lato';
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   height: 34px;
+}
+
+button {
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 1 #888;
+   border-radius: 1px !important;
+   height: 34px;
+}
+
+/* CONTENT COLUMN */
+
+#content-main {
+  width: 57%;
+  margin-right: 3%;
+  float: left;
+}
+
+#wrapper.content-detail {
+  width: 60%;
+}
+
+.avatar-wrap {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 30px;
+  width: 30px;
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;  
+}
+
+.avatar {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media (min-width: 1600px) {
+  body { 
+    font-size: 18px;
+  }
+  #wrapper {
+    width: 50%;
+  }
+  #wrapper.content-detail {
+    width: 50%;
+  }
+
+  section > p {
+    line-height: 1.8em;
+  }
+}
+
+@media (max-width: 1600px) {
+  #wrapper.content-detail {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #wrapper.content-detail {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  body { 
+    font-size: 18px; 
+  }
+  #wrapper {
+    width: 70%;
+    padding-top: 4em;
+  }
+  #wrapper.content-detail {
+    width: 70%;
+  }  
+  #work_wrap {
+    min-height: 800px !important;
+    margin-left: -5%;
+  }
+  .work_tile {
+    width: 45%;
+    margin-left: 5%;
+    height: 210px; 
+  }
+}
+
+@media (max-width: 690px) {
+  #wrapper {
+    width: 90%;
+    padding-top: 3em;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  #wrapper.content-detail {
+    width: 100%;
+  }
+
+  #content-main {
+    width: 100%;
+  }
+  header.nav-wrap {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+  header.nav-wrap .nav-top {
+    margin: 0 auto !important;
+    width: 30px;
+  }  
+  .nav-logo {
+    background-size: 30px 30px;
+  }
+  nav {
+    display: inline !important;
+    text-align: center;
+  }
+
+  li.nav-left {
+    display:inline;    
+  }
+  
+  .content-wrap {
+    width: auto;
+    padding: 0 1em;
+  }
+
+  #work_wrap {
+    min-height: 1000px !important;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .work_tile {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    background-size: 100%;
+  }
+
+  .header {
+    margin: 1em 0;
+  }
+  .header h1 {
+    font-size: 1.4em;
+    margin-bottom: 0.6em;
+  }
+  .header .description {
+    font-size: 1em;
+  }
+  .article {
+    margin: 1em 0 2.5em;
+  }
+  .archive {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .archive * {
+    float: none !important;
+    line-height: 1.6 !important;
+    width: auto !important;
+    height: auto !important;
+    text-align: left !important;
+    border: 0 !important;
+    margin: 0 !important;
+  }
+  #newest {
+    display: none;
+  }
+
+  footer .nav {
+    margin: 1em 0;
+  }
+  footer .about {
+    padding: 0;
+    font-size: 0.9em;
+    padding-top: 1.6em;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -ms-column-count: 1;
+    column-count: 1;
+  }
+  footer .about p {
+    margin-bottom: 1em;
+  }
+}
+

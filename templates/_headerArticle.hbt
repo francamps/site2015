@@ -1,0 +1,7 @@
+<div class="content-wrap">
+	<div class="avatar-wrap animated fadeInUp">
+		<div onclick="location.href='/index.html'" class="nav-logo-article"></div>
+	</div>
+	<h1 class="animated fadeInUp">{{ title }}</h1>
+	<p class="author animated fadeInUp">By <span class="author">{{ author }}</span></p>
+</div>

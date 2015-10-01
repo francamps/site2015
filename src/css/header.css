@@ -1,0 +1,56 @@
+/* page header */
+
+p.description {
+  color: #888;
+  font-family: 'Lato', serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -0.3em;
+}
+
+p.author {
+  color: #888;
+  font-family: 'Lato', serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -0.3em;
+}
+
+
+.header {
+  margin: 40px 0 40px;
+}
+
+.header h1 {
+  font-size: 2.6em;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header a, .header a:hover {
+  text-decoration: none;
+  color: #171717;
+}
+
+.header .author {
+  font-family: 'Lato', serif;
+  font-weight: 300;
+  font-variant: small-caps;
+  text-rendering: auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+body.article-detail > header h1 {
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: -0.2em;
+}
+
+body.article-detail > header {
+  margin-bottom: 3em;
+}
